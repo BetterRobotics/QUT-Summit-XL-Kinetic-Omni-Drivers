@@ -5,8 +5,6 @@ QUT Summit XL
   Install the peak system CANBUS driver module using the following commands:
   --------------------------------------------------------------------------
 
-  unzip
-
   Setup "libpopt.dev" dependency by install libpopt-dev library into the system:
   ```bash
   sudo apt-get install libpopt-dev
