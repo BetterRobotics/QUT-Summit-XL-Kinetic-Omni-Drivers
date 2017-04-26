@@ -1,6 +1,6 @@
 QUT Summit XL
 =============
-<b># NOTE:</b> This workspace is designed for an Summit XL OMNI-drive platform using the Mecanum wheels, it is running the latest version drivers for the Motor Controllers and Summit XL platform.
+<b># NOTE:</b> This workspace is designed for an Summit XL OMNI-drive platform using the Mecanum wheels, it's running the latest drivers for the Motor Controllers, Summit XL platform and ROS kinetic.
 
   Install the peak system CANBUS driver module using the following commands:
   --------------------------------------------------------------------------
