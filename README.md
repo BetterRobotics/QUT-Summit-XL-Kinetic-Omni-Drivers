@@ -26,7 +26,6 @@ QUT Summit XL
   ```bash
   cat /proc/pcan
   ```
-  ----------------------------------------------------------------------------
   
   You should see:  -NA- under ndev
   ```bash
