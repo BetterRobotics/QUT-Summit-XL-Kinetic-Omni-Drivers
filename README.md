@@ -2,7 +2,7 @@ QUT Summit XL
 =============
 
 
-  Install the peak system CANBUS driver module using the following commands:
+  1. Install the peak system CANBUS driver module using the following commands:
   --------------------------------------------------------------------------
 
   Setup "libpopt.dev" dependency by install libpopt-dev library into the system:
@@ -32,6 +32,6 @@ QUT Summit XL
   *---------------- [mod] [isa] [pci] [dng] [par] [usb] [pcc] -----------------
   *--------------------- 1 interfaces @ major 250 found -----------------------
   *n -type- ndev --base-- irq --btr- --read-- --write- --irqs-- -errors- status
-  32    usb -NA- ffffffff 255 0x0014 00000005 00000034 00000168 00000075 0x000c
+  32    usb -NA- ffffffff 255 0x0014 00000005 00000034 00000168 00000075 0x000cCop 
 
 
