@@ -37,5 +37,8 @@ QUT Summit XL
   32    usb -NA- ffffffff 255 0x0014 00000005 00000034 00000168 00000075 0x000cCop 
   ```
 
-  Lastly copy caktin_ws_kinetic to desired location and make workspace as per ROS instructions.
+  Install Workspace:
+  ------------------
+  
+  Copy caktin_ws_kinetic to desired location and make workspace as per ROS instructions here http://wiki.ros.org/catkin/Tutorials/create_a_workspace.
   
