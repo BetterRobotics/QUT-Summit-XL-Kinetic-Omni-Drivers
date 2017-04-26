@@ -4,9 +4,9 @@ Install the peak system CANBUS driver module using the following commands:
 --------------------------------------------------------------------------
 
 Setup "libpopt.dev" dependency by install libpopt-dev library into the system:
-'''
+```
 sudo apt-get install libpopt-dev
-'''
+```
 Untar the file:
 cd && cd Downloads && wget http://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-7.15.2.tar.gz && tar -xzf peak-linux-driver-7.15.2.tar.gz && cd peak-linux-driver-7.15.2
 Make Install:
