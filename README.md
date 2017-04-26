@@ -29,14 +29,14 @@ QUT Summit XL
   ----------------------------------------------------------------------------
   
   You should see:  -NA- under ndev
-  
+  ```bash
   *------------- PEAK-System CAN interfaces (www.peak-system.com) -------------
   *-------------------------- Release_20120319_n (7.5.0) ----------------------
   *---------------- [mod] [isa] [pci] [dng] [par] [usb] [pcc] -----------------
   *--------------------- 1 interfaces @ major 250 found -----------------------
   *n -type- ndev --base-- irq --btr- --read-- --write- --irqs-- -errors- status
   32    usb -NA- ffffffff 255 0x0014 00000005 00000034 00000168 00000075 0x000cCop 
-
+  ```
 
   Lastly copy caktin_ws_kinetic to desired location and make workspace as per ROS instructions.
   
