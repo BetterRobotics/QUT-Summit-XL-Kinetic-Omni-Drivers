@@ -1,6 +1,6 @@
 QUT Summit XL
 =============
-
+<b># NOTE:</b> This workspace is designed for an Summit XL OMNI-drive platform using the Mecanum wheels, it is running the latest version drivers for the Motor Controllers and Summit XL platform.
 
   Install the peak system CANBUS driver module using the following commands:
   --------------------------------------------------------------------------
@@ -37,8 +37,8 @@ QUT Summit XL
   32    usb -NA- ffffffff 255 0x0014 00000005 00000034 00000168 00000075 0x000cCop 
   ```
 
-  Install Workspace:
-  ------------------
+  Install ROS catkin workspace:
+  -----------------------------
   
   Copy caktin_ws_kinetic to desired location and make workspace as per ROS instructions here:  http://wiki.ros.org/catkin/Tutorials/create_a_workspace.
   
