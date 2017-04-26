@@ -26,7 +26,10 @@ QUT Summit XL
   ```bash
   cat /proc/pcan
   ```
+  ----------------------------------------------------------------------------
+  
   You should see:  -NA- under ndev
+  
   *------------- PEAK-System CAN interfaces (www.peak-system.com) -------------
   *-------------------------- Release_20120319_n (7.5.0) ----------------------
   *---------------- [mod] [isa] [pci] [dng] [par] [usb] [pcc] -----------------
