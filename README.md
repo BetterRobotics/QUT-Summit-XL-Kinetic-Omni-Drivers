@@ -40,5 +40,5 @@ QUT Summit XL
   Install Workspace:
   ------------------
   
-  Copy caktin_ws_kinetic to desired location and make workspace as per ROS instructions here http://wiki.ros.org/catkin/Tutorials/create_a_workspace.
+  Copy caktin_ws_kinetic to desired location and make workspace as per ROS instructions here:  http://wiki.ros.org/catkin/Tutorials/create_a_workspace.
   
