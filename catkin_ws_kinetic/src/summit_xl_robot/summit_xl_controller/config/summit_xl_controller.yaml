@@ -1,0 +1,19 @@
+summit_xl_controller:
+  diameter_wheel: 0.250    # rubber wheels: 0.22, omni wheels: 0.25
+  gearbox_reduction: 12.52 # 24V motors: 12.52, 48V motors: 9.56
+  kinematic_mode: "MEC"   # Options: "skid", "omni"
+  motion_odometry: "false"
+  motors_encoder: "false"
+  motors_encoder_factor: 4000
+  publish_odom_tf: "true"
+  take-over: false
+  x_wam: "false"
+  xwam: "false"
+  yaw_source: "imu"  # Available alternatives "gyro" and "imu" (default value "gyro")
+  imu_topic: "/imu/data"
+  acceleration: 1.0  # m/s^2
+  
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+ # If motors_encoders == true motors speed is multiplied by motors_encoder_factor 
+ # If no encoders it MUST be false 
+ # Robot will increase his speed DANGEROUSLY if true with no encoders 

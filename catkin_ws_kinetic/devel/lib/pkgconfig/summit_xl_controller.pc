@@ -1,0 +1,8 @@
+prefix=/home/summit/catkin_ws_kinetic/devel
+
+Name: summit_xl_controller
+Description: Description of summit_xl_controller
+Version: 0.0.0
+Cflags: -I/home/summit/catkin_ws_kinetic/devel/include -I/home/summit/catkin_ws_kinetic/src/summit_xl_robot/summit_xl_controller/include
+Libs: -L/home/summit/catkin_ws_kinetic/devel/lib 
+Requires: roscpp tf nav_msgs geometry_msgs sensor_msgs self_test std_srvs robotnik_msgs

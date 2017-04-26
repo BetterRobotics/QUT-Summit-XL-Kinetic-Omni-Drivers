@@ -1,0 +1,8 @@
+prefix=/home/summit/catkin_ws_kinetic/devel
+
+Name: summit_xl_web
+Description: Description of summit_xl_web
+Version: 0.0.1
+Cflags: -I/home/summit/catkin_ws_kinetic/devel/include
+Libs: -L/home/summit/catkin_ws_kinetic/devel/lib 
+Requires: roscpp rospy std_msgs

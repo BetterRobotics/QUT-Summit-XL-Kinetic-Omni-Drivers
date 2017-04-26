@@ -1,0 +1,28 @@
+<package>
+  <description brief="gps_map_tf">
+
+     gps_map_tf
+
+  </description>
+  <author>Roberto</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/gps_map_tf</url>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="self_test"/>
+  <depend package="diagnostic_updater"/>
+  <depend package="std_srvs"/>
+  <depend package="robotnik_msgs"/>
+  <depend package="tf"/>
+  <depend package="gps_common"/>
+
+  <export>
+     <pr2_controller_interface plugin="${prefix}/controller_plugins.xml" />
+  </export>
+
+</package>
+
+

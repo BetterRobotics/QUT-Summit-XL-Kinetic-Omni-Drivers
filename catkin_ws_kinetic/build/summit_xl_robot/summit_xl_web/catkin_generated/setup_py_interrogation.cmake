@@ -1,0 +1,6 @@
+set(summit_xl_web_SETUP_PY_VERSION "0.0.1")
+set(summit_xl_web_SETUP_PY_SCRIPTS "")
+set(summit_xl_web_SETUP_PY_PACKAGES "summit_xl_web")
+set(summit_xl_web_SETUP_PY_PACKAGE_DIRS "scripts/summit_xl_web")
+set(summit_xl_web_SETUP_PY_MODULES "")
+set(summit_xl_web_SETUP_PY_MODULE_DIRS "")

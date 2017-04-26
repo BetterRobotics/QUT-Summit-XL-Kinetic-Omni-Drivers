@@ -1,0 +1,2 @@
+bool up
+bool down

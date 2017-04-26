@@ -1,0 +1,8 @@
+prefix=/home/summit/catkin_ws_kinetic/devel
+
+Name: summit_xl_description
+Description: Description of summit_xl_description
+Version: 1.1.2
+Cflags: 
+Libs: -L/home/summit/catkin_ws_kinetic/devel/lib 
+Requires: urdf xacro

@@ -1,0 +1,2 @@
+dependencies/robotnik_msgs:dependencies/robotnik_sensors:learning_tf:summit_cpu:summit_xl_common/summit_xl_common:summit_xl_common/summit_xl_description:summit_xl_common/summit_xl_pad:summit_xl_robot/summit_xl_bringup:summit_xl_robot/summit_xl_controller:summit_xl_robot/summit_xl_web:twist_mux
+-DCATKIN_DEVEL_PREFIX=/home/summit/catkin_ws_kinetic/devel -DCMAKE_INSTALL_PREFIX=/home/summit/catkin_ws_kinetic/install -G Unix Makefiles

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/summit/catkin_ws_kinetic/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/summit/catkin_ws_kinetic/install
+
+Name: twist_mux
+Description: Description of twist_mux
+Version: 3.0.0
+Cflags: -I/home/summit/catkin_ws_kinetic/install/include
+Libs: -L/home/summit/catkin_ws_kinetic/install/lib 
+Requires: roscpp std_msgs geometry_msgs visualization_msgs diagnostic_updater

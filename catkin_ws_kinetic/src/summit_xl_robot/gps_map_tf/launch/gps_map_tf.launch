@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- start gps_map_tf node -->
+  <node name="gps_map_tf" pkg="gps_map_tf" type="gps_map_tf" respawn="false" output="screen">
+
+    <!-- Set frame ids of the robot frame chain -->
+    <param name="global_frame_id" value="map"/>
+    <param name="odom_frame_id" value="odom"/>
+    <param name="base_frame_id" value="base_footprint" />
+
+    <!-- param name="gps_model" value="mediatek" / -->
+    <param name="gps_model" value="gpsd" />
+
+  </node>
+
+</launch>

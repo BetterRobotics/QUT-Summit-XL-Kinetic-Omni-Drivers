@@ -1,0 +1,8 @@
+prefix=/home/summit/catkin_ws_kinetic/install
+
+Name: summit_xl_control
+Description: Description of summit_xl_control
+Version: 1.0.10
+Cflags: 
+Libs: -L/home/summit/catkin_ws_kinetic/install/lib 
+Requires: 

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- Define if XWAM configuration or standard XL -->
+  <!-- param name="xwam" type="string" value="false"/ -->
+
+  <!-- start summit_xl_controller node -->
+  <node name="summit_xl_controller" 
+	pkg="summit_xl_controller" 
+	type="summit_xl_controller" 
+	respawn="false" output="screen"
+    launch-prefix="xterm -e gdb --args" >
+
+    <!-- Define if XWAM configuration or standard XL -->
+    <param name="xwam" type="string" value="false"/>
+
+   </node>
+
+</launch>
+

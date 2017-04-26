@@ -1,0 +1,2 @@
+set(robotnik_msgs_MESSAGE_FILES "msg/encoders.msg;msg/inputs_outputs.msg;msg/ptz.msg;msg/Data.msg;msg/Interfaces.msg;msg/Axis.msg;msg/AlarmSensor.msg;msg/Alarms.msg;msg/MotorStatus.msg;msg/MotorsStatus.msg;msg/State.msg;msg/BatteryStatus.msg;msg/MotorsStatusDifferential.msg")
+set(robotnik_msgs_SERVICE_FILES "srv/get_digital_input.srv;srv/set_analog_output.srv;srv/set_mode.srv;srv/set_ptz.srv;srv/get_mode.srv;srv/set_digital_output.srv;srv/set_odometry.srv;srv/set_height.srv;srv/enable_disable.srv;srv/home.srv;srv/axis_record.srv;srv/set_float_value.srv")

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- start hokuyo node -->
+  <!-- <node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_base_node" output="screen"/ -->
+  <include file="$(find summit_xl_bringup)/launch/hokuyo_laser.launch"/>
+
+  <!-- start robot_state_publisher - publish fixed transforms, load robot model to param server -->
+  <include file="$(find summit_xl_description)/launch/summit_xl_state_robot.launch"/>
+
+  <!-- start sound node -->
+  <!-- <node pkg="sound_play" type="soundplay_node.py" name="sound_play_node" output="screen"/> -->
+
+  <!-- start summit_xl_controller node -->
+  <!-- node pkg="summit_xl_controller" type="summit_xl_controller" name="summit_xl_controller" output="screen"/ -->
+  <include file="$(find summit_xl_bringup)/launch/summit_xl_controller.launch"/>
+
+  <!-- start robotnik_gyro -->
+  <!--include file="$(find robotnik_gyro)/launch/robotnik_gyro.launch" /-->
+
+  <!-- start summit_xl_pad nodes -->
+  <include file="$(find summit_xl_bringup)/launch/summit_xl_pad.launch" />
+
+  <!-- start novatel oemv gps -->
+  <!--include file="$(find novatel_oemv)/launch/novatel_oemv.launch" / -->
+
+  <!-- start mediatek gps -->
+  <!--<include file="$(find mediatek_gps)/launch/mediatek_gps.launch" /> -->
+
+  <!-- start axis camera -->
+  <!--include file="$(find summit_xl_bringup)/launch/axis.launch"/--> 
+
+  <!-- start gpsd -->
+  <!--include file="$(find summit_xl_bringup)/launch/gpsd_client.launch"/-->
+
+  <!-- start fotonic camera -->
+  <!-- include file="$(find fotonic_3dcamera)/launch/fotonic_3dcamera.launch"/-->
+
+  <!-- start orbecc camera -->
+  <include file="$(find openni2_launch)/launch/openni2.launch">
+	<arg name="camera" value="orbbec_astra"/>
+        <arg name="publish_tf" value="false"/>
+	<arg name="rgb_frame_id"   default="orbbec_astra_cam_rgb_optical_frame" />
+  	<arg name="depth_frame_id" default="orbbec_astra_cam_depth_optical_frame" />
+  </include>
+
+  <!-- start sphere camera -->
+  <!-- <include file="$(find sphere_camera)/sphereptz.launchh"/> -->
+
+  <!-- start robotnik_arduimu and madgwick filter -->
+  <!--include file="$(find robotnik_arduimu)/launch/robotnik_arduimu_madgwick.launch"/-->
+
+  <!-- start robotnik_arduimu and madgwick filter -->
+  <!--<include file="$(find microstrain_3dmgx2_imuu)/microstrain_3dmgx2.launch"/>-->
+
+  <!-- start complementary_filter and pixhawk node filter -->
+  <include file="$(find summit_xl_bringup)/launch/pixhawk.launch"/>
+  
+  <!-- start summit_xl_web server -->
+  <include file="$(find summit_xl_web)/launch/summit_xl_web.launch"/>
+
+</launch>
+

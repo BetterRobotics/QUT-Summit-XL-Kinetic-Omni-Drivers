@@ -1,0 +1,8 @@
+prefix=/home/summit/catkin_ws_kinetic/devel
+
+Name: robotnik_msgs
+Description: Description of robotnik_msgs
+Version: 0.2.1
+Cflags: -I/home/summit/catkin_ws_kinetic/devel/include
+Libs: -L/home/summit/catkin_ws_kinetic/devel/lib 
+Requires: message_runtime std_msgs
